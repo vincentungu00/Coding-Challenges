@@ -6,7 +6,7 @@ Assume you're given two tables containing data about Facebook Pages and their re
 
 Write a query to return the IDs of the Facebook pages that have zero likes. The output should be sorted in ascending order based on the page IDs.
 
-Solution in MySQL.
+Solution in PostgreSQL.
 */
 
 SELECT p.page_id
