@@ -9,4 +9,4 @@ Solution in MySQL.
 
 SELECT c.*
 FROM CITY AS c
-WHERE c.ID = 1661
+WHERE c.ID = 1661;
