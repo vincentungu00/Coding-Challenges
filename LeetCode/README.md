@@ -1,0 +1,1 @@
+This repository consists of LeetCode problems along with the solution I proposed to solve the challenges. The solution has 100% acceptance rate. At the same time, I am giving my best to provide the most optimal solution.
