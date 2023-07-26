@@ -7,7 +7,7 @@ Find the ids of products that are both low fat and recyclable. Return the result
 Solution in MySQL.
 */
 
-SELECT product_id
+SELECT p.product_id
 FROM Products AS p
 WHERE p.low_fats = "Y"
 AND p.recyclable = "Y";
