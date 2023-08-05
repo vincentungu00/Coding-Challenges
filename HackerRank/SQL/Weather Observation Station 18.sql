@@ -17,5 +17,5 @@ WITH points AS (
         MAX(s.LAT_N) AS c, MAX(s.LONG_W) AS d
     FROM STATION AS s
 )
-SELECT ROUND((ABS(p.c - p.a) + ABS(p.d - p.b)), 4)
+SELECT ROUND((ABS(p.c - p.a) + ABS(p.d - p.b)), 4) AS manhattan_distance
 FROM points AS p;
