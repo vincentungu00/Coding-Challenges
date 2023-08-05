@@ -12,5 +12,5 @@ WITH points AS (
     MAX(s.LAT_N) AS c, MAX(s.LONG_W) AS d
     FROM STATION AS s
 )
-SELECT ROUND(SQRT(POWER(c-a, 2) + POWER(d-b, 2)), 4) AS manhattan_distance
+SELECT ROUND(SQRT(POWER(p.c - p.a, 2) + POWER(p.d - p.b, 2)), 4) AS manhattan_distance
 FROM points AS p;
