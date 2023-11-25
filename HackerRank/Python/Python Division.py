@@ -1,5 +1,5 @@
 """
-Link: https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
+Link: https://www.hackerrank.com/challenges/python-division/problem
 
 Question:
 The provided code stub reads two integers, a and b, from STDIN.
