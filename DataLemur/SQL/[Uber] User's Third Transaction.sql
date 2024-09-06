@@ -1,3 +1,12 @@
+/*
+Link: https://datalemur.com/questions/sql-third-transaction
+
+Question:
+Assume you are given the table below on Uber transactions made by users. Write a query to obtain the third transaction of every user. Output the user id, spend and transaction date.
+
+Solution in PostgreSQL.
+*/
+
 WITH user_txn_order AS (
   SELECT t.user_id, 
     t.spend, 
